@@ -9,20 +9,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,300&family=Sriracha&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <script src="scripts.js"></script>
 </head>
 
 <body>
     <div class="caixa-maior">
         <input type="text" name="buscar" id="" class="input-cidade" placeholder="Digite o nome da cidade">
-        <button>Buscar</button>
+        <button class="botao-busca" onclick="cliqueiNoBotao()">
+            <img class="img-busca" src="https://www.svgrepo.com/show/488200/find.svg" alt="busca">
+        </button>
 
-        <h2>Tempo Maceió</h2>
+        <div class="caixa-media">
 
-        <p>45°C</p>
+            <h2 class="cidade">Tempo em Maceió</h2>
+            <p class="temp">45°C</p>
 
-        <img src="" alt="icone-info-tempo">
 
-        <p>Umidade: 76%</p>
+            <div class="caixa-menor">
+                <img class="img-previsao" src="" alt="icone-info-tempo">
+                <p class="texto-previsao">Nublado</p>
+            </div>
+
+
+            <p class="umidade">Umidade: 76%</p>
+        </div>
 
 
 
